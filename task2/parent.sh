@@ -9,9 +9,6 @@ do
     if [ ${#num_list[@]} -ne 2 ]; then
         echo "Enter exactly 2 integers, restarting main process."
     else
-
-        read -ra newarr <<< "$text"
-        
         num1=${num_list[0]}
         num2=${num_list[1]}
 
